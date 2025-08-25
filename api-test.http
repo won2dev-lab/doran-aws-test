@@ -1,0 +1,10 @@
+POST localhost:8080/api/boards
+Content-Type: application/json
+
+{
+  "title": "게시글 제목",
+  "content": "게시글 내용"
+}
+
+###
+GET localhost:8080/api/boards/1
